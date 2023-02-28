@@ -1,0 +1,6 @@
+<!-- make button with bootstrap buttons -->
+<button class="btn btn-primary" (click)="getTasks()">Get Tasks</button>
+
+<div *ngFor="let t of tasks">
+    <app-task [task]="t"></app-task>
+</div>
