@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent {
+  constructor() { }
 
+ngOnInit(): void {
+}
+func1( ) { console.log('data')
+  
+}
 }
