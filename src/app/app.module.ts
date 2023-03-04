@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuestionListComponent } from './question-list/question-list.component';
 import { QuestionComponent } from './question/question.component';
-// import { HttpClient } from '.@angular/component/http';
+// import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,8 +15,8 @@ import { QuestionComponent } from './question/question.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-    // HttpClientModule
+    AppRoutingModule,
+    // HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
